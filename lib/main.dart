@@ -73,10 +73,10 @@ class _MyHomePageState extends State<MyHomePage>
   }
 
   @override
-  void dispose() {git push origin main
-    // 메모리 누수 방지
-    controller!.dispose();
-    super.dispose();
+  void dispose() {
+  // 메모리 누수 방지
+  controller!.dispose();
+  super.dispose();
   }
 
   @override
